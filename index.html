@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="logic.js"></script>
+    <link rel= "stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body>
+  <h2>National Parks Service </h2>
+  
+    <section class="box-wrap">
+      <form id="search">
+        <h1>Search U.S. National Parks</h1>
+        <input type="text" id="statename" class="form-control" placeholder="Enter state code (Ex. CA, WY)" />
+        <br />
+        <p> Wait few seconds to see information after clicking Submit</p>
+        <br />
+        <button class="btn btn-primary" type="submit" value="Submit"> Submit </button>
+      </form>
+    </section>
+    <section id="results-list" class="container hidden">
+      <h2> Results List</h2>
+    </section>
+  
+</body>
+</html>
